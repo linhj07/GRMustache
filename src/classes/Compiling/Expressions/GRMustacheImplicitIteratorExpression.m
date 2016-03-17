@@ -27,7 +27,7 @@ static GRMustacheImplicitIteratorExpression *instance;
 
 @implementation GRMustacheImplicitIteratorExpression
 
-+ (void)initialize
++ (void)load
 {
     instance = [[self alloc] init];
 }
